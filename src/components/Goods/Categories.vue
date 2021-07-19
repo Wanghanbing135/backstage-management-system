@@ -212,8 +212,6 @@ export default {
         } else {
           this.cateList = res.data.result;
           this.total = res.data.total;
-          //   console.log(this.cateList);
-          //   console.log(this.total);
         }
       });
     },
